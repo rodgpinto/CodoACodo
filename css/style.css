@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+.imgLogo {
+    margin-left: 5%;
+
+}
+
+.imgText {
+    margin-right: auto;
+}
+
+
+.barNav {
+    
+    margin-right: 5rem;
+
+
+}
+
+.nav-background {
+
+    background-color: rgba(53, 58, 64, 255);
+
+}
+
+.carrousel-header {
+    margin-top: 14%;
+    padding-right: 9%;
+}
+
+.carrousel-text {
+    padding-left: 50%;
+    padding-right: 9%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    left: 0%;
+    bottom: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    color: #fff;
+    text-align: right;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button {
+    margin-right: 9%;
+}
+
+.oradores {
+    text-align: center;
+}
+
+.oradoresCard {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.backgraundMidPage{
+    background-color: rgba(53,58,64,255);
+}
+
+/*Conviertete en un Orador*/
+
+.textoCentro{
+    text-align: center;
+}
+
+.pAncho{
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+.pSubrayado {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.formBox{
+    width: 50%;
+}
+
+.enviarButton{
+    background-color: rgba(150,201,62,255);
+    height: 33px;
+    
+}
+
+/*Footer*/
+
+.footerBackgroundColor{
+    background: linear-gradient(to right, rgba(28,54,67,255), rgba(29,82,113,255))
+}
+
+.footerNav{
+    padding-left: auto;
+    padding-right: 2%;
+}
