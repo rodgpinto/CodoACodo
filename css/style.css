@@ -92,7 +92,7 @@ html {
 .enviarButton {
     background-color: rgba(150, 201, 62, 255);
     height: 33px;
-    
+
 
 }
 
@@ -133,10 +133,11 @@ div .card-body {
 .form-row {
     display: flex;
     flex-wrap: wrap;
-    
+
 
 }
-.form-group{
+
+.form-group {
     padding: 5px;
 }
 

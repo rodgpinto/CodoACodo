@@ -256,29 +256,31 @@
         <input type="text" class="form-control" placeholder="Correo" aria-label="Correo">
       </div>
       <br>
-      <div>
-        <p class="totalAPagar">Total a Pagar:$</p>
-      </div>
+
       <div>
         <div class="form-row ">
           <div class="form-group col-12 col-md-6">
-            <label id="fieldCantidad" class="ml-2" for="exampleFormControlSelect1">Cantidad</label>
-            <input type="text" id="field-cantidad" class="form-control field-form" placeholder="Cantidad">
+            <label class="ml-2" for="exampleFormControlSelect1">Cantidad</label>
+            <input type="number" id="cantidad" class="form-control field-form" placeholder="Cantidad">
           </div>
           <div class="form-group col-12 col-md-6">
-            <label class="ml-2" for="exampleFormControlSelect1">Categoria</label>
-            <select class="form-select" id="field-categoria">
-              <option>Estudiante</option>
-              <option>Trainee</option>
-              <option>Junior</option>
+            <label for="descuento" class="ml-2" for="exampleFormControlSelect1">Categoria</label>
+            <select class="form-control field-form select" id="descuento">
+              <option value="estudiante">Estudiante</option>
+              <option value="trainee">Trainee</option>
+              <option value="junior">Junior</option>
             </select>
           </div>
         </div>
         <br>
         <div class="d-grid gap-2 d-md-flex justify-content-center botonesFinales">
-          <button id="btnBorrar" class="btn text-light enviarButton fs-4 col-12 col-md-6" type="button">Borrar</button>
-          <button id="btnResumen" class="btn text-light enviarButton fs-4 col-12 col-md-6"
+          <button onclick="limpiarResultado()" class="btn text-light enviarButton fs-4 col-12 col-md-6" type="button">Borrar</button>
+          <button onclick="calcularPrecio()" class="btn text-light enviarButton fs-4 col-12 col-md-6"
             type="button">Resumen</button>
+        </div>
+        <br>
+        <div>
+          <p id="resultado" class="totalAPagar">Total a Pagar:$</p>
         </div>
         <br>
   </main>
