@@ -15,7 +15,7 @@ html {
 
 
 .barNav {
-    
+
     margin-right: 5rem;
 
 
@@ -48,7 +48,7 @@ html {
     padding-bottom: 0%;
     color: #fff;
     text-align: right;
- background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-button {
@@ -64,43 +64,91 @@ html {
     margin-right: 15%;
 }
 
-.backgraundMidPage{
-    background-color: rgba(53,58,64,255);
+.backgraundMidPage {
+    background-color: rgba(53, 58, 64, 255);
 }
 
 /*Conviertete en un Orador*/
 
-.textoCentro{
+.textoCentro {
     text-align: center;
 }
 
-.pAncho{
+.pAncho {
     padding-left: 25%;
     padding-right: 25%;
 
 }
+
 .pSubrayado {
     text-decoration: underline;
     text-decoration-style: dotted;
 }
 
-.formBox{
+.formBox {
     width: 50%;
 }
 
-.enviarButton{
-    background-color: rgba(150,201,62,255);
+.enviarButton {
+    background-color: rgba(150, 201, 62, 255);
     height: 33px;
     
+
 }
+
+.cardDescuentos {
+
+    text-align: center;
+    width: 50rem;
+    line-height: 20px;
+    padding: 10px;
+}
+
+div .card-body {
+    border: 0;
+}
+
+.cardDescuentos h5 {
+    font-weight: bold;
+}
+
+.cardDescuentos .porcentaje {
+    font-weight: bold;
+
+}
+
+.venta {
+    text-align: center;
+
+
+}
+
+.totalAPagar {
+    background-color: #cce5ff;
+    border: 1px solid color(rgba(204, 229, 255, 255));
+    padding: 8px;
+
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.form-group{
+    padding: 5px;
+}
+
+
 
 /*Footer*/
 
-.footerBackgroundColor{
-    background: linear-gradient(to right, rgba(28,54,67,255), rgba(29,82,113,255))
+.footerBackgroundColor {
+    background: linear-gradient(to right, rgba(28, 54, 67, 255), rgba(29, 82, 113, 255))
 }
 
-.footerNav{
+.footerNav {
     padding-left: auto;
     padding-right: 2%;
 }
